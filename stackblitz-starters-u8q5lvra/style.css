@@ -1,0 +1,207 @@
+
+
+/* =========================
+   SILKROOT BRAND SYSTEM
+========================= */
+
+:root {
+  --primary-color: #7A3E65;
+  --accent-color: #D486B1;
+  --neutral-color: #FAE8EC;
+  --text-dark: #2b1b24;
+}
+
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+body {
+  background-color: var(--neutral-color);
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  color: var(--primary-color);
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+  
+  background-color:#EDD3E8;
+  padding: 15px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: var(--primary-color);
+  margin: 0 10px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--accent-color);
+}
+
+.nav-link.active {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+  background-image: url ("https://chatgpt.com/s/m_69f00b791660819185107f8f9a5e70c7");
+  center/cover no-repeat)
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-overlay {
+  background: rgba(122, 62, 101, 0.65);
+  padding: 40px;
+  border-radius: 20px;
+  color: white;
+  max-width: 600px;
+}
+
+.hero h1 {
+  color: white;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn-main {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 25px;
+  transition: 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-main:hover {
+  background-color: var(--accent-color);
+  transform: scale(1.05);
+  color: white;
+}
+
+/* =========================
+   CARDS
+========================= */
+
+.card {
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+  background-color: white;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+/* =========================
+   BADGES
+========================= */
+
+.badge {
+  margin: 5px;
+  background-color: var(--primary-color);
+}
+
+/* =========================
+   CTA STRIP
+========================= */
+
+.cta-strip {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 50px 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.cta-strip h2,
+.cta-strip h3 {
+  color: white;
+}
+
+/* =========================
+   FORMS
+========================= */
+
+form {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: var(--primary-color);
+}
+
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 25px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* =========================
+   MAP
+========================= */
+
+iframe {
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 10px;
+}
+img {
+  width: 500px;
+  height: 500px;
+}
