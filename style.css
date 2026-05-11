@@ -203,4 +203,6 @@ iframe {
 img {
   width: 500px;
   height: 500px;
+  border-radius: 20px; /* Adjust this number to change the curve intensity */
 }
+
