@@ -72,8 +72,7 @@ h1, h2, h3, h4 {
 ========================= */
 
 .hero {
-  background-image: url ("https://chatgpt.com/s/m_69f00b791660819185107f8f9a5e70c7");
-  center/cover no-repeat)
+  
   height: 450px;
   display: flex;
   align-items: center;
